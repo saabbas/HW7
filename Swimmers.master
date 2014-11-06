@@ -1,0 +1,45 @@
+﻿<%@ Master Language="VB" CodeFile="Swimmers.master.vb" Inherits="Swimmers" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link rel="stylesheet" type="text/css" href="./CSS/stylesheet.css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="container">
+        <div id="header">
+            <h1>Swimming Greats</h1>
+            <h3>Database of Top American Swimmers</h3>
+        </div>
+        
+        <div id="right_header">
+            <img src="./CSS/phelps.jpg" height="150px" />
+        </div>
+
+            <div id="menu">
+                <ul id="nav">
+                    <li><a href="./Default.aspx">Home</a></li>
+                    <li><a href="./Search.aspx">Search</a></li>
+                    <li><a href="./Login.aspx">Login</a></li>
+                    <li><a href="./AboutUs.aspx">About Us</a></li>
+                    <li><a href="./ContactUs.aspx">Contact Us</a></li>
+                </ul>
+            </div>
+        <div id="main">
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+        </div>
+
+        <div id="footer">
+            &copy; Sean Abbas 2014 - Software Design and Development
+        </div>
+    </div>
+    </form>
+</body>
+</html>
