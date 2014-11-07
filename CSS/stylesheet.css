@@ -106,3 +106,12 @@ h4 {
     margin-right:auto;
     height:150px;
 }
+
+.aboutUs {
+font-family:'Adobe Heiti Std';
+font-size:medium;
+color:black;
+font-weight:700;
+font-style:italic;
+text-align:justify;
+}
