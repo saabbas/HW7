@@ -19,7 +19,7 @@
         </div>
         
         <div id="right_header">
-            <img src="./CSS/phelps.jpg" height="150px" />
+            &nbsp;<asp:Image ID="phelps" runat="server" Height="145px" ImageUrl="~/CSS/phelps.jpg" Width="184px" />
         </div>
 
             <div id="menu">

@@ -7,9 +7,14 @@ h1 {
     padding-top:40px; 
 }
 
-h2 {
+h3 {
     font-family:Arial, sans-serif, Poplar Std;
     font-variant: small-caps;
+}
+
+h4 {
+    font-family: Times New Roman;
+    font-size:xx-small;
 }
 
 #container {
